@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'nanatsu';
+    src: url(/src/CHRICI__.TTF);
+}
+
+html{
+    font-family: "nanatsu";
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+}
+
+.personagem img{
+    max-width:200px ;
+    max-height:200px ;
+}
+
+.personagem {
+    clear: both;
+    margin-top: 20px;
+}
+
+.personagem-selecionado img{
+    max-height: 600px;
+    max-width: 400px;
+}
+
+.cabecalho img{
+    max-width:350px ;
+    max-height:250px ;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.selecao-personagens{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.selecao-personagens .lista-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
