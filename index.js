@@ -11,11 +11,6 @@ personagens.forEach((personagem) => {
                 personagemSelecionado.classList.remove("selecionado");
         personagem.classList.add("selecionado");
 
-        // const imagemPersonagemGrande = document.querySelector(".personagem-grande");
-        
-        // const idPersonagem = personagem.attributes.id.value;
-        // imagemPersonagemGrande.src = `./src/images/${idPersonagem}.png`;
-
         const imagemPersonagemGrande = document.querySelector('.personagem-grande');
         const idPersonagem = personagem.attributes.id.value;
         imagemPersonagemGrande.src = `./src/Images/${idPersonagem}.png`;
