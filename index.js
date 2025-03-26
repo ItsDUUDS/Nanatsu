@@ -18,14 +18,14 @@ personagens.forEach((personagem) => {
 
         const imagemPersonagemGrande = document.querySelector('.personagem-grande');
         const idPersonagem = personagem.attributes.id.value;
-        imagemPersonagemGrande.src = `./src/images/${idPersonagem}.png`;
+        imagemPersonagemGrande.src = `./src/Images/${idPersonagem}.png`;
 
-        const nomePersonagem =document.getElementById("nome-personagem");
+        const nomePersonagem = document.getElementById("nome-personagem");
 
         nomePersonagem.innerText = personagem.getAttribute('data-name')
 
         const descricaoPersonagem = document.getElementById('descricao-personagem');
-        descricaoPersonagem.innerText = personagem.getAttribute("data-description")
+        descricaoPersonagem.innerText = personagem.getAttribute("data-description");
 
         })
 })
